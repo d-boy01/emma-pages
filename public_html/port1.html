@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Bootsrap </title>
+   
+    <link rel="stylesheet" href="css-reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,700&display=swap" rel="stylesheet">
+    
+
+    <style>
+
+body{
+        background-color: #F9EFE7;
+        font-family: 'Asap', sans-serif
+        
+      }
+      
+
+
+
+.pointer:hover {
+  transform: translateX(10px);
+}
+
+.container {
+  /* max-width: 1024px;
+  min-height: 300px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding-top: 170px;
+  
+}
+
+.con-head{
+  font-weight: bold;
+
+
+}
+
+.scroll {
+      background-color: rgba(60, 60, 60, 0.8) !important;
+      transition: background-color 0.3s ease;
+    }
+
+.logo  {
+      transition: transform 0.3s ease;
+    }
+  .logo:hover {
+      transform: translate(5px, 5px);
+    }
+
+      .logo{
+ margin-top: 20px;
+}
+
+.logo img {
+      max-width: 100%;
+      transition: max-width 0.3s ease;
+    }
+
+
+      .header-container {
+  background-color: rgba(60, 60, 60, 0.544);
+  min-height: 100px;
+  position: fixed;
+  width: 100%;
+
+  /* margin: 0 auto; */
+}
+
+header {
+  max-width: 1024px;
+  /* background-color: blueviolet; */
+  min-height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px lightgray solid;
+}
+      
+
+a {
+  color: white;
+  text-decoration: none;
+}
+      .card{
+        background-color: #242d09;
+        border: none;
+        color: #fff;
+        position: fixed-bottom;
+      }
+    
+    .mybox{
+  /* background-color: rgb(219, 239, 32); */
+  min-height: 300px;
+  margin: 20px 11px;
+  padding: 20px;
+
+
+}
+ .navbutton {
+  margin-left: 10px
+}
+
+.navbutton:hover {
+  background-color: rgba(0, 0, 0, 0.632);
+  color:bisque;
+  transition: 1s;
+}
+
+
+.navbutton {
+  border: 1px rgb(255, 255, 255) solid;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  padding: 11px 25px;
+
+  display: inline-block;
+  position: relative;
+}
+
+
+.mob-wrapper {
+  display: none;
+}
+
+
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+.text-container{
+  width: 100%;
+  margin-left: 2px;
+}
+
+
+img{
+  min-width: 100%;
+}
+
+header{
+  min-height: 10px;
+}
+
+.logo-head{
+  width:60%;
+}
+
+.mybox{
+  margin: 10px 5px;
+  padding: 0;
+}
+
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+
+  .card h2  {
+
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+.card-group{
+
+  display: block;
+  margin-bottom: 10px;
+}
+.card-group .card{
+
+  
+  margin-bottom: 20px;
+}
+
+.header-container{
+   
+   /* width: 100%; */
+       box-sizing: content-box;
+       position: relative;
+    
+       /* padding: 0;
+       margin: 0; */
+       position: fixed;
+   
+       
+     }
+
+
+nav {
+  display: none;
+}
+
+
+.mob-wrapper {
+  display: block;
+  padding-right: 30px;
+}
+
+.mob-nav {
+  display: none;
+  position: absolute;
+  padding-top: 10px;
+}
+.navham {
+  display: block;
+  background-color: coral;
+  padding: 15px 30px;
+  margin-left: -70px;
+  text-align: center;
+}
+
+.mob-nav .navham:hover{
+  background-color: rgba(255, 127, 80, 0.779);
+  color: #242d09;
+  font-weight: bold;
+}
+.show{
+  display: block;
+}
+
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .card-body {
+ font-size: px;
+ text-align: center;
+}
+
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+
+ }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+
+ }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="header-container">
+      <header>
+          <a class="logo-head" href="/index.html">
+            <div class="logo">
+                <img src="Group 2.svg" alt="Logo for Bike Repair shop Roar Bikes">
+            </div>
+          </a>
+
+          <nav>
+                      
+
+              <div class="navbutton  "><a href="project.html"> View Project </a>
+              
+              </div>
+              <div class="navbutton"><a href="#">MY CV</a></div>
+              <div class="navbutton"><a href="/contact-us.html">Email</a></div>
+          </nav>
+
+
+          <div class="mob-wrapper">
+
+              <img src="/project-img/icon-burger-menu.svg" alt="Mobile Menu Icon" style="width: 40px;" class="burgermenu">
+
+              <div class="mob-nav show">
+                  <a href="/project.html" class="navham">View Project</a>
+                  <a href="/Class Projects - Figma Essentials.pdf" target="_blank" class="navham">MY CV</a>
+                  <a href="mailto:daniel@mywebsite.com?Subject=Reservation" class="navham ">Email</a>
+              </div>
+           </div>
+           
+      </header>
+  </div>
+
+
+<div class="container">
+
+  <h1 class="text-body-black text-center mt-5 display-3 con-head">BRAND LANDING PAGE</h1>
+  <header class="row">
+    <div class="col">
+      <div class="mybox"><img src="/img-port/project1.png " alt="" width="100%"></div>
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="mybox"><img src="/img-port/Shopping website.png " alt="" width="100%" style="color: aliceblue;"></div>
+    </div>
+  </header>
+
+ 
+
+  
+  <h2>PROJECT GOAL: Engage, Convert, and Inspire with a Striking Design and Color Palette</h2>
+  <div class="text-content">
+    
+ 
+    <p><b>Project Brief</b>: For this marketing landing page project, the objective was to create a visually captivating and highly effective platform to showcase your marketing expertise and attract potential clients. With a keen understanding of your goals and target audience, I have designed a landing page that will make a lasting impact and drive meaningful engagement.</p>
+    <p><b>Understanding the Project</b>: The marketing landing page serves as a powerful tool to convey your brand message, highlight your unique selling propositions, and entice visitors to take action. By combining strategic design elements and a carefully curated color palette, we aim to create an immersive experience that captivates your audience and drives conversions.</p>
+    <p>Thoughtfully Chosen Color Palette: The color scheme of the landing page plays a crucial role in conveying your brand identity and evoking specific emotions. The dominant color, <span style="background-color: #FFAAA5; display: inline-block; width: 30px; height: 20px;"></span> (#FFAAA5), is a vibrant and attention-grabbing hue that symbolizes energy and passion. It aims to instantly capture visitors' attention and ignite their curiosity, creating a sense of excitement around your offerings.</p>
+    <p><b>Complementary Colors</b>: To establish a harmonious visual composition, we have incorporated <span style="background-color: #A4C2C4; display: inline-block; width: 30px; height: 20px;"></span> (#A4C2C4), a cool and serene color. This shade adds a touch of sophistication and tranquility to the design, instilling trust and reliability in the minds of your audience. The careful balance between the dominant color and its complementary counterpart creates a visually appealing and well-rounded experience.</p>
+    <p><b>Accent Colors</b>: To enhance key elements and create a sense of urgency, we strategically integrate accents of <span style="background-color: #FFAAA5; display: inline-block; width: 30px; height: 20px;"></span> (#FFAAA5) and <span style="background-color: #FBCA32; display: inline-block; width: 30px; height: 20px;"></span> (#FBCA32). These vibrant pops of color draw attention to critical sections, such as call-to-action buttons and compelling headlines, encouraging visitors to engage and explore further.</p>
+    <p><b>Driving Results</b>: With this thoughtfully designed marketing landing page, we aim to captivate your target audience, compel them to engage with your content, and ultimately convert them into loyal customers. By leveraging a striking design and carefully curated color palette, we create an unforgettable visual experience that aligns seamlessly with your marketing goals.</p>
+    <p><b>Conclusion</b>: Whether you're promoting a new product, generating leads, or establishing your brand presence, this captivating marketing landing page will showcase your expertise and make a lasting impression on potential clients. Together, we'll create a platform that drives meaningful results and sets the stage for your marketing success.</p>
+    </div>
+
+     <main class="row" >
+    <div class="col">
+      <div class="mybox col-12 col-md-12 offset-5"><img src="/img-port/landing-page-new01.gif" alt="" width="100%"></div>
+    </div>
+  </main>
+
+    <div class=" all card-group row">
+      <div class="card">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h2>My Role</h2>
+         
+
+            <p>UX Designer</p>
+            <p>UX Researcher</p>
+            <p>Product Manager</p>
+         
+          </ul>
+        </div>
+      
+      </div>
+      <div class="card">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h2>Project Duration</h2>
+          <p> 1 day (2022)</p>
+        </div>
+      
+      </div>
+      <div class="card">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h2 class="card-title">Type</h2>
+      <p>Landing Page</p>
+      <p>Website</p>
+        </div>
+       
+      </div>
+      <div class="card">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          
+          <h2 class="card-title">Industry</h2>
+          <p>Any</p>
+        </div>
+       
+      </div>
+      <div class="card">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h2 class="card-title">Client</h2>
+          <p>Marketting</p>
+        </div>
+       
+      </div>
+    </div>
+
+
+
+  </div>
+   
+
+
+
+
+
+
+    
+   
+  
+    </div> 
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
